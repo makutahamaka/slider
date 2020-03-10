@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2880f8c8-0120-4a2b-9095-899940101fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/slider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Arrow-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Ellipse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/slide1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/css/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/js/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swiper/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fixed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/win7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup/magnific-popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583836746458</updated>
-      <workItem from="1583836749025" duration="12072000" />
+      <workItem from="1583836749025" duration="12160000" />
+      <workItem from="1583867124442" duration="9780000" />
     </task>
     <servers />
   </component>
@@ -76,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
