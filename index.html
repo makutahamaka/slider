@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="swiper/css/swiper.css">
+    <link rel="stylesheet" href="swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>slider</title>
+</head>
+<body>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/slide1.svg"></div>
+        <div class="swiper-slide"><img src="img/slide1.svg"></div>
+        <div class="swiper-slide"><img src="img/slide1.svg"></div>
+        <div class="swiper-slide"><img src="img/slide1.svg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="slider">
+    <div class="left"><div class="arrow__wrapper_left"><img src="img/Arrow.svg"><img src="img/Ellipse.svg"></div></div>
+    <div class="right"><div class="arrow__wrapper_right"><img src="img/Arrow-1.svg"><img src="img/Ellipse.svg"></div></div>
+        <div class="container-wrap">
+            <div class="container">
+                <div class="block">
+                    <p>first bonuses</p>
+                    <p>welcome<br> bonuspackage</p>
+                    <hr>
+                    <p>200 bonus and 100 free spins</p>
+                    <a href="#"><button>Deposit</button></a>
+                </div>
+                <div class="block">
+                    <p>bonuses first</p>
+                    <p>bonuspackage<br> welcome</p>
+                    <hr>
+                    <p>300 bonus and 10 free spins</p>
+                    <a href="#"><button>Deposit</button></a>
+                </div>
+                <div class="block">
+                    <p>welcome bonuspackage</p>
+                    <p>first<br> bonuses</p>
+                    <hr>
+                    <p>230 bonus and 120 free spins</p>
+                    <a href="#"><button>Deposit</button></a>
+                </div>
+            </div>
+        </div>
+</div>
+
+<script src="jquery/jquery-3.4.1.min.js"></script>
+<script src="swiper/js/swiper.js"></script>
+<script src="swiper/js/swiper.min.js"></script>
+<script src="script.js"></script>
+<script>
+
+    var swiper1 = new Swiper('.swiper-container', {
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+
+
+    $('.left').on('click', function() {
+        var count = $('.container div').length;
+        var columns = 1;
+        var columnWidth = 100 / columns;
+
+        if (count <= columns) return;
+
+        var leftItem = $('.container').data('left item');
+        if (typeof leftItem === "undefined") {
+            leftItem = 0;
+        }
+
+        leftItem = leftItem - 1;
+        if (leftItem < 0) leftItem = 0;
+        $('.container').data('left item', leftItem);
+
+        $('.container').css('margin-left', -columnWidth * leftItem + '%');
+
+    });
+
+    $('.right').on('click', function() {
+        var count = $('.container div').length;
+        var columns = 1;
+        var columnWidth = 100 / columns;
+
+        if (count <= columns) return;
+
+        var leftItem = $('.container').data('left item');
+        if (typeof leftItem === "undefined") {
+            leftItem = 0;
+        }
+
+        leftItem = leftItem + 1;
+        if ((leftItem + columns) > count) leftItem = count - columns;
+        $('.container').data('left item', leftItem);
+
+        $('.container').css('margin-left', -columnWidth * leftItem + '%');
+
+    });
+</script>
+</body>
+</html>
